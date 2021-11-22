@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Add Page */
+
+.add-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: url(https://clipart-db.ru/file_content/rastr/background_039.jpg);
+
+}
+.add-page form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.add-page form input {
+  margin: 5px;
+}
+.add-page form button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* Main page */
+.main-page {
+  display: flex;
+  justify-content: center;
+  background: rgb(171, 175, 182);
+}
+
+.cars {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: url(https://clipart-db.ru/file_content/rastr/background_039.jpg);
+}
+.cars link {
+  background-color: "green";
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf1LcjCG70HjIKlviK7KHCCKP2RL5EYF35WeSUcB4Jkx1DQCmy1vF9Ca5lgU34H545jYs&usqp=CAU);
+}
+.pagination ul {
+  display: flex;
+  list-style-type: none;
+
+}
+.pagination li{
+  margin: 0 0.1em;
+  
+}
+.pagination button{
+  border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 0.5em;
+  background-color: rgb(218, 222, 230);
+}
+
+.css-v526sl-MuiPaper-root-MuiAppBar-root {
+  background-image: url(https://phonoteka.org/uploads/posts/2021-04/1618467315_47-p-belii-kirpichnii-fon-47.jpg);
+}
+
+/* Detail Page */
+
+.detail-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.1em;
+  background: rgb(171, 175, 182);
+}
+.detail-image {
+  margin: 0.5em;
+}
+.detail-info {
+  margin: 0.5em;
+  width: 40em;
+}
+/* cart page */
+
+.cart{
+  background: rgb(171, 175, 182);
+
+}
+
+
+.admin-page{
+  background-image: url(https://phonoteka.org/uploads/posts/2021-04/1618467315_47-p-belii-kirpichnii-fon-47.jpg);
+
+}
+
+.edit-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: url(https://clipart-db.ru/file_content/rastr/background_039.jpg);
+
+}
+.edit-page form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
